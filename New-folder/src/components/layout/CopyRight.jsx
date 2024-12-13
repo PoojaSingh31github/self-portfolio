@@ -14,26 +14,26 @@ import { HiLocationMarker } from "react-icons/hi";
       >
         <Flex alignItems="center" justifyContent="center" gap="5px">
           <AiOutlinePhone />
-          <Text>+91 9516803962</Text>
+          <Text>+91 8130140259</Text>
         </Flex>
 
         <Flex alignItems="center" justifyContent="center" gap="5px">
           <GrMail />
-          <Text>princerohit@gmail.com</Text>
+          <Text>poojasingh12312000@gmail.com</Text>
         </Flex>
 
         <Flex justifyContent="center" alignItems="center" gap="5px">
           <Text>
             <HiLocationMarker />
           </Text>
-          <Text>Nowgong, India</Text>
+          <Text>Delhi, India</Text>
         </Flex>
       </Flex>
       <Text
         mt={{ base: "10px", md: "20px" }}
         fontSize={{ base: "12px", md: "14px" }}
       >
-        Copyright © 2022
+        Copyright © 2024
       </Text>
     </>
   );

@@ -22,7 +22,7 @@ function GitCalenderOffical() {
         m="auto"
         mt={{ base: "10px", md: "20px" }}
       >
-        <GitHubCalendar username="rohit9894" color="#6B46C1"></GitHubCalendar>
+        <GitHubCalendar username="PoojaSingh31github" color="#6B46C1"></GitHubCalendar>
       </Flex>
 
       <Box>
