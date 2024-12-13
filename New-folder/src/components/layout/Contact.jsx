@@ -28,17 +28,23 @@ function Contact() {
       </MotionText>
 
       {/* Email Box */}
-      <MotionBox
+
+
+      {/* <MotionBox
         w={["90%", "70%", "60%", "50%"]}
         m="auto"
         background={"blackAlpha.100"}
         p={2}
         initial={{ opacity: 0 }}
         animate={{ opacity: 1 }}
-        transition={{ duration: 1 }}
+        transition={{ duration: 1 }}  
       >
         <Email />
-      </MotionBox>
+      </MotionBox> */}
+
+
+
+      
 
       {/* Social Media Links */}
       <Box pb={{ base: "20px", md: "30px" }}>

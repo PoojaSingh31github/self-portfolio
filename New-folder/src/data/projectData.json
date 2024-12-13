@@ -49,7 +49,7 @@
     "info2": "Frontend and Data Visualization: The frontend is developed in React, with Tailwind CSS for an elegant and responsive UI. Financial data is beautifully visualized using Chart.js, providing users with interactive graphs and insights into their income, expenses, and savings trends.",
     "team": "This is the project that was individually done by me and completed in 1 Days.",
     "tstack": "REACT | TAILWIND.CSS | CHART.JS | FIREBASE",
-    "direction": true
+    "direction": false
   },
   {
     "id": 5,

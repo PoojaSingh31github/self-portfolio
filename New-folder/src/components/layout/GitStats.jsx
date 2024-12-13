@@ -26,7 +26,7 @@ export default function GitStats() {
       >
 
         <Box>
-          <a href="https://github.com/heyabrar">
+          <a href="https://github.com/PoojaSingh31github">
             <Image
               width={{ base: "300px", md: "520px", lg: "500px" }}
               src={`https://github-readme-stats.vercel.app/api?username=PoojaSingh31github&show_icons=true&locale=en&show_icons=true&theme=${
@@ -45,7 +45,7 @@ export default function GitStats() {
         alignItems="center"
       >
         <Box>
-          <a href="https://github.com/heyabrar">
+          <a href="https://github.com/PoojaSingh31github">
             <Image
               width={{ base: "250px", md: "280px", lg: "350px" }}
               src={`https://github-readme-stats.vercel.app/api/top-langs?username=PoojaSingh31github&show_icons=true&locale=en&layout=compact&langs_count=5&theme=${
