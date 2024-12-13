@@ -35,7 +35,8 @@ function Projects() {
           name={LiveChat.name}
           image1={LiveChat.src1}
           image2={LiveChat.src2}
-          bio={LiveChat.info}
+          info={LiveChat.info}
+          info2={LiveChat.info2}
           tstack={LiveChat.tstack}
           details={LiveChat.team}
           github={LiveChat.repo}
@@ -54,7 +55,8 @@ function Projects() {
           name={MailTest.name}
           image1={MailTest.src1}
           image2={MailTest.src2}
-          bio={MailTest.info}
+          info={MailTest.info}
+          info2={MailTest.info2}
           tstack={MailTest.tstack}
           details={MailTest.team}
           github={MailTest.repo}
@@ -73,7 +75,8 @@ function Projects() {
           name={Campaign.name}
           image1={Campaign.src1}
           image2={Campaign.src2}
-          bio={Campaign.info}
+          info={Campaign.info}
+          info2={Campaign.info2}
           tstack={Campaign.tstack}
           details={Campaign.team}
           github={Campaign.repo}
@@ -92,7 +95,8 @@ function Projects() {
           name={NDTV.name}
           image1={NDTV.src1}
           image2={NDTV.src2}
-          bio={NDTV.info}
+          info={NDTV.info}
+          info2={NDTV.info2}
           tstack={NDTV.tstack}
           details={NDTV.team}
           github={NDTV.repo}
@@ -111,7 +115,8 @@ function Projects() {
           name={Finder.name}
           image1={Finder.src1}
           image2={Finder.src2}
-          bio={Finder.info}
+          info={Finder.info}
+          info2={Finder.info2}
           tstack={Finder.tstack}
           details={Finder.team}
           github={Finder.repo}

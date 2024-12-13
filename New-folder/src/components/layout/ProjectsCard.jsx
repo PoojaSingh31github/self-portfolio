@@ -6,7 +6,8 @@ function ProjectsCard({
   name,
   image1,
   image2,
-  bio,
+  info,
+  info2,
   details,
   tstack,
   github,
@@ -41,7 +42,13 @@ function ProjectsCard({
               fontSize={{ base: "13px", md: "14px", lg: "16px" }}
               textAlign="justify"
             >
-              {bio}
+              {info}
+            </Text>
+            <Text
+              fontSize={{ base: "13px", md: "14px", lg: "16px" }}
+              textAlign="justify"
+            >
+              {info2}
             </Text>
             <Text
               fontSize={{ base: "12px", md: "14px", lg: "16px" }}
@@ -116,7 +123,15 @@ function ProjectsCard({
               lineHeight={{ base: "20px", md: "25px", lg: "30px" }}
               textAlign="justify"
             >
-              {bio}
+              {info}
+            </Text>
+            <Text
+              fontSize={{ base: "13px", md: "14px", lg: "16px" }}
+              mt={{ base: "5px", md: "10px", lg: "12px" }}
+              lineHeight={{ base: "20px", md: "25px", lg: "30px" }}
+              textAlign="justify"
+            >
+              {info2}
             </Text>
             <Text
               fontSize={{ base: "12px", md: "14px", lg: "16px" }}
