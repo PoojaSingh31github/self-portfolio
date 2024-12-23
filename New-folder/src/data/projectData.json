@@ -13,6 +13,19 @@
     "direction": false
   },
   {
+    "id": 3,
+    "src1": "https://i.ibb.co/8bHvMDQ/image.png",
+    "src2": "https://i.ibb.co/C9sj9sC/image.png",
+    "name": "E-R diagram builder",
+    "link": "https://entity-craft.vercel.app/",
+    "repo": "https://github.com/PoojaSingh31github/WEB_039_Browser_Breakers",
+    "info": "Backend deployed via Render, using Node.js and Express.js. Implements various routes for managing user authentication, diagram creation, updates, and export functionalities. Includes MongoDB for data storage and integrates a version control system for diagram revisions.",
+    "info2": "Frontend deployed via Vercel, utilizing Vite, Context API, and Tailwind CSS for an intuitive and responsive user interface. Features include drag-and-drop diagram creation, entity and relationship editing, and exporting diagrams to various formats like PNG, PDF, and SVG.",
+    "team": "This is the project that was done by 4 team members and completed in 5 Days.",
+    "tstack": "REACT | XYFLOW | TAILWIND.CSS | MONGODB | EXPRESS | NODE.JS",
+    "direction": true
+  },
+  {
     "id": 2,
     "src1": "https://i.ibb.co/fnzKRt3/image.png",
     "src2": "https://i.ibb.co/nz5WmNQ/image.png",
@@ -23,21 +36,9 @@
     "info2": "Implemented functionalities for complex algorithms like backtracking and binary search. Collaborated with a team of five, managing medium-level contributions in feature development.",
     "team": "A collaborative project of 5 team members completed in 5 days.",
     "tstack": "FIREBASE | TAILWIND.CSS | JAVASCRIPT | HTML | CSS ",
-    "direction": true
-  },
-  {
-    "id": 3,
-    "src1": "https://i.imgur.com/jPLBCWO.png",
-    "src2": "https://i.imgur.com/AkuqEcA.png",
-    "name": "Campaign Monitor",
-    "link": "https://social-celery-8599-rohit9894.vercel.app/",
-    "repo": "https://github.com/Rohit9894/social-celery-8599",
-    "info": "Connecting with your audience has never been easier with Campaign Monitor's straightforward email marketing and automation tools.",
-    "info2": "Connecting with your audience has never been easier with Campaign Monitor's straightforward email marketing and automation tools.",
-    "team": "This is the project that was individually done by me and completed in 5 Days.",
-    "tstack": "HTML | CSS | JAVASCRIPT | REACT | CHAKRA UI",
     "direction": false
   },
+  
   {
     "id": 4,
     "src1": "https://i.ibb.co/qBHtnJ0/image.png",
@@ -49,7 +50,7 @@
     "info2": "Frontend and Data Visualization: The frontend is developed in React, with Tailwind CSS for an elegant and responsive UI. Financial data is beautifully visualized using Chart.js, providing users with interactive graphs and insights into their income, expenses, and savings trends.",
     "team": "This is the project that was individually done by me and completed in 1 Days.",
     "tstack": "REACT | TAILWIND.CSS | CHART.JS | FIREBASE",
-    "direction": false
+    "direction": true
   },
   {
     "id": 5,

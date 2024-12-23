@@ -22,7 +22,7 @@ function Navbar({ ProfileRef, AboutRef, SkillsRef, ProjectsRef, ContactRef }) {
 
   const handleDownload = () => {
     return window.open(
-      "https://drive.google.com/file/d/111jC7Ul-nI5I7cBlxlfeDgbpftS9InGi/view?usp=sharing"
+      "https://drive.google.com/file/d/1WO6A0tv2RH_yrlWuy_V8iyD5K7h-31TY/view?usp=sharing"
     );
   };
 
