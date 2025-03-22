@@ -13,7 +13,7 @@ import { BsFillMoonFill, BsFillSunFill } from "react-icons/bs";
 import { FaBars, FaTimes } from "react-icons/fa";
 import { motion } from "framer-motion";
 
-import Resume from "../../assets/PoojaSingh.pdf";
+import Resume from "../../assets/Pooja-Singh-Full-Stack.pdf";
 import { useTheme } from "../../Context/AppContext";
 
 function Navbar({ ProfileRef, AboutRef, SkillsRef, ProjectsRef, ContactRef }) {
