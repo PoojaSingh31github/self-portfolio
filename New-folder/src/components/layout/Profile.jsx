@@ -1,7 +1,7 @@
 import { Box, Button, Flex, Image, Text, Link } from "@chakra-ui/react";
 import { HiDownload } from "react-icons/hi";
 import { motion } from "framer-motion";
-import Resume from "../../assets/Pooja-Singh-Full-Stack-Developer.pdf";
+import Resume from "../../assets/Pooja-Singh.pdf";
 
 function Profile() {
   const handleDownload = () => {
