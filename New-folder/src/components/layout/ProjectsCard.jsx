@@ -40,12 +40,16 @@ function ProjectsCard({
             </Text>
             <Text
               fontSize={{ base: "13px", md: "14px", lg: "16px" }}
+              mt={{ base: "5px", md: "10px", lg: "12px" }}
+              lineHeight={{ base: "20px", md: "25px", lg: "30px" }}
               textAlign="justify"
             >
               {info}
             </Text>
             <Text
               fontSize={{ base: "13px", md: "14px", lg: "16px" }}
+              mt={{ base: "5px", md: "10px", lg: "12px" }}
+              lineHeight={{ base: "20px", md: "25px", lg: "30px" }}
               textAlign="justify"
             >
               {info2}

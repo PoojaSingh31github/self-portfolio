@@ -1,6 +1,32 @@
 [
   {
     "id": 1,
+    "src2": "https://i.ibb.co/NgGsNjtJ/image.png",
+    "src1": "https://i.ibb.co/m53P4B79/image.png",
+    "name": "Chat App",
+    "link": "https://quick-ai-frontend-gamma.vercel.app/",
+    "repo": "https://github.com/PoojaSingh31github/quick-ai-frontend",
+    "info": "Backend built with Node.js, Express.js, MongoDB, JWT authentication, and Socket.io for real-time communication. Includes protected routes, user authentication, chat messaging APIs, profile management, and Cloudinary integration for media storage.",
+"info2": "Frontend developed with React (Vite), Context API, Tailwind CSS, and Socket.io client. Features include real-time one-to-one chat, responsive UI, theme customization (light/dark), profile pages, online/offline status, and media sharing support.",
+ "team": "This is the project that was individually done by me and completed in 6 Days.",
+    "tstack": "MERN | COOKIES | WEBSOCKET ",
+    "direction": false
+  },
+  {
+    "id": 2,
+    "src2": "https://i.ibb.co/bj3vCHq8/image.png",
+    "src1": "https://i.ibb.co/spYKSx3B/image.png",
+    "name": "Quick AI",
+    "link": "https://quick-ai-frontend-gamma.vercel.app/",
+    "repo": "https://github.com/PoojaSingh31github/quick-ai-frontend",
+    "info": "Backend powered by Express.js with Clerk Authentication, Gemini API, NeonDB, and Cloudinary integration for secure image management. Implements RESTful APIs and real-time dashboard updates via Redux Toolkit.",
+    "info2": "Frontend built with React.js, TypeScript, and Tailwind CSS, featuring reusable modular components for scalable UI architecture and seamless user experience.",
+    "team": "This is the project that was individually done by me and completed in 6 Days.",
+    "tstack": "REACT | STATE MANAGEMENT | SQL | AI/ML",
+    "direction": true
+  },
+  {
+    "id": 3,
     "src1": "https://i.ibb.co/6gNJLd2/image.png",
     "src2": "https://i.ibb.co/Rz6stzN/image.png",
     "name": "MERN E-Commerce Website",
@@ -13,7 +39,7 @@
     "direction": false
   },
   {
-    "id": 3,
+    "id": 4,
     "src1": "https://i.ibb.co/8bHvMDQ/image.png",
     "src2": "https://i.ibb.co/C9sj9sC/image.png",
     "name": "E-R diagram builder",
@@ -26,7 +52,7 @@
     "direction": true
   },
   {
-    "id": 2,
+    "id": 5,
     "src1": "https://i.ibb.co/fnzKRt3/image.png",
     "src2": "https://i.ibb.co/nz5WmNQ/image.png",
     "name": "Algorithm visualizer",
@@ -38,9 +64,9 @@
     "tstack": "FIREBASE | TAILWIND.CSS | JAVASCRIPT | HTML | CSS ",
     "direction": false
   },
-  
+
   {
-    "id": 4,
+    "id": 6,
     "src1": "https://i.ibb.co/qBHtnJ0/image.png",
     "src2": "https://i.ibb.co/N7vDR0c/image.png",
     "name": "Finance Manager",
@@ -51,18 +77,5 @@
     "team": "This is the project that was individually done by me and completed in 1 Days.",
     "tstack": "REACT | TAILWIND.CSS | CHART.JS | FIREBASE",
     "direction": true
-  },
-  {
-    "id": 5,
-    "src1": "https://i.imgur.com/WQZujZe.png",
-    "src2": "https://i.imgur.com/1ElIJq2.png",
-    "name": "Finder",
-    "link": "https://quorachat.vercel.app/",
-    "repo": "https://github.com/Rohit9894/quorachat",
-    "info": "It is social media and multiuser site where you can post the articles ",
-    "info2": "It is social media and multiuser site where you can post the articles ",
-    "team": "This is the project that was individually done by me and completed in 2 Days.",
-    "tstack": "HTML | CSS | JAVASCRIPT | NEXT JS | CHAKRA UI",
-    "direction": false
-  }
+  }  
 ]

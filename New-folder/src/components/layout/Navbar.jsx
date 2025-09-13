@@ -15,10 +15,12 @@ import { motion } from "framer-motion";
 
 import Resume from "../../assets/Pooja-Singh.pdf";
 import { useTheme } from "../../Context/AppContext";
+import { useNavigate } from "react-router-dom";
 
 function Navbar({ ProfileRef, AboutRef, SkillsRef, ProjectsRef, ContactRef }) {
   const { isOpen, onOpen, onClose } = useDisclosure();
   const { Theme, ToggleTheme } = useTheme();
+  const navigate = useNavigate();
 
   const handleDownload = () => {
     return window.open(
@@ -103,6 +105,9 @@ function Navbar({ ProfileRef, AboutRef, SkillsRef, ProjectsRef, ContactRef }) {
               </Text>
               <Text onClick={ProjectsRef} cursor="pointer">
                 Project
+              </Text>
+              <Text onClick={() => navigate("/blog")} cursor="pointer">
+                Blog
               </Text>
               <Text onClick={ContactRef} cursor="pointer">
                 Contact

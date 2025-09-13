@@ -1,3 +1,4 @@
+import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import "./App.css";
 import { useRef } from "react";
 import { Box } from "@chakra-ui/react";
@@ -6,8 +7,9 @@ import Contact from "./components/layout/Contact";
 import Projects from "./components/layout/Projects";
 import Skills from "./components/layout/Skills";
 import Profile from "./components/layout/Profile";
-import { useTheme } from "./Context/AppContext";
+import Blog from "./components/layout/Blog";
 import Navbar from "./components/layout/Navbar";
+import { useTheme } from "./Context/AppContext";
 
 function App() {
   const ProfileRef = useRef(null);
@@ -34,35 +36,46 @@ function App() {
     });
   };
   return (
-    <Box className="App" style={Theme === "light" ? light : dark}>
-      <Navbar
+    <Router>
+      <Box className="App" style={Theme === "light" ? light : dark}>
+        <Navbar
         ProfileRef={() => HandleScrollTo(ProfileRef)}
         AboutRef={() => HandleScrollTo(AboutRef)}
         SkillsRef={() => HandleScrollTo(SkillsRef)}
         ProjectsRef={() => HandleScrollTo(ProjectRef)}
         ContactRef={() => HandleScrollTo(ContactRef)}
       />
-
-      <Box ref={ProfileRef}>
+        <Routes>
+          <Route
+            path="/"
+            element={
+              <>
+                <Box ref={ProfileRef}>
         <Profile />
       </Box>
 
       <Box mt={{ base: "7%", md: "7%" }} ref={AboutRef}>
-        <SocialProfileSimple />
-      </Box>
+                  <SocialProfileSimple />
+                </Box>
 
       <Box mt={{ base: "10%", md: "7%", lg: "5%" }} ref={SkillsRef}>
-        <Skills />
-      </Box>
+                  <Skills />
+                </Box>
 
       <Box mt={{ base: "10%", md: "7%", lg: "6%" }} ref={ProjectRef}>
-        <Projects />
-      </Box>
+                  <Projects />
+                </Box>
 
       <Box mt={{ base: "7%", md: "7%", lg: "5%" }} ref={ContactRef}>
-        <Contact />
+                  <Contact />
+                </Box>
+              </>
+            }
+          />
+          <Route path="/blog" element={<Blog />} />
+        </Routes>
       </Box>
-    </Box>
+    </Router>
   );
 }
 

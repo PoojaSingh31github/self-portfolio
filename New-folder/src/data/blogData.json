@@ -1,0 +1,39 @@
+[
+  {
+    "id": 1,
+    "title": "Sliding Window Product Example",
+    "desc": "const arr = [1, 5, 2, 3, 7];\nlet k = 3;\nlet ws = 1;\nconst ans = [];\nfor (let i = 0; i < k; i++) {\n  ws *= arr[i];\n}\nconsole.log(ws);\nlet maxx = ws;\nfor (let i = k; i < arr.length; i++) {\n  ws = ws * arr[i] / arr[i - k];\n  ans.push(ws / 4);\n  if (maxx < ws) maxx = ws;\n}\nconsole.log(maxx, ans);",
+    "date": "2025-09-01"
+  },
+  {
+    "id": 2,
+    "title": "Longest Subarray with Sum ≤ K",
+    "desc": "const arr = [1,2,3,4,5,6];\nsum = 16;\ni = 0;\nj = 0;\nws = 0;\nmaxx = 0;\nwhile (i < arr.length) {\n  ws += arr[i];\n  while (ws > sum) {\n    ws -= arr[j];\n    j++;\n  }\n  i++;\n  maxx = Math.max(maxx, i - j);\n}\nconsole.log(maxx);",
+    "date": "2025-09-02"
+  },
+  {
+    "id": 3,
+    "title": "First Negative in Every Window of Size K",
+    "desc": "input = [12, -1, -7, 8, -15, 30, 16, 28];\nk = 3;\nconst anss = [];\nfor (let i = 0; i <= input.length - k; i++) {\n  let found = false;\n  for (let j = i; j < i + k; j++) {\n    if (input[j] < 0) {\n      anss.push(input[j]);\n      found = true;\n      break;\n    }\n  }\n  if (!found) {\n    anss.push(0);\n  }\n}\nconsole.log(anss);",
+    "date": "2025-09-03"
+  },
+  {
+    "id": 4,
+    "title": "Longest Substring with At Most K Distinct Characters",
+    "desc": "let s = 'eceba';\nk = 2;\nlet obj = {};\nlet j = 0;\nlet ans = 0;\nfor (let i in s) {\n  if (!obj[s[i]]) obj[s[i]] = 0;\n  obj[s[i]]++;\n  while (Object.keys(obj).length > k) {\n    obj[s[j]]--;\n    if (obj[s[j]] == 0) delete obj[s[j]];\n    j++;\n  }\n  ans = Math.max(ans, i - j + 1);\n}\nconsole.log(ans);",
+    "date": "2025-09-04"
+  },
+  {
+  "id": 5,
+  "title": "React Native: Relationship App Setup",
+  "desc2": "I completed the full setup of a Relationship App in React Native. Designed the UI with multiple screens, explored components, navigation, state management, and layouts. Made the layout responsive and implemented basic navigation.",
+  "date": "2025-09-13"
+},
+{
+  "id": 6,
+  "title": "Angular: Full Project Setup",
+  "desc2": "I completed the full project setup in Angular. Learned how components, modules, and services work. Generated the project using Angular CLI, understood the folder structure, and wrote basic component code. Explored routing, data binding, and template syntax during the setup.",
+  "date": "2025-09-14"
+}
+
+]
