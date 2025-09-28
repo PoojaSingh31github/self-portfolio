@@ -1,12 +1,12 @@
 import { Box, Button, Flex, Image, Text, Link } from "@chakra-ui/react";
 import { HiDownload } from "react-icons/hi";
 import { motion } from "framer-motion";
-import Resume from "../../assets/Pooja-Singh.pdf";
+import Resume from "../../assets/Pooja-Singh-Frontend-Developer.pdf.pdf";
 
 function Profile() {
   const handleDownload = () => {
     return window.open(
-      "https://drive.google.com/file/d/1WO6A0tv2RH_yrlWuy_V8iyD5K7h-31TY/view?usp=sharing"
+      "https://drive.google.com/file/d/1IjEl_RuornLpiBfltrpWG5QWsnUrD4WC/view"
     );
   };
 

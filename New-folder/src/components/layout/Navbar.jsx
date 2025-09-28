@@ -13,7 +13,7 @@ import { BsFillMoonFill, BsFillSunFill } from "react-icons/bs";
 import { FaBars, FaTimes } from "react-icons/fa";
 import { motion } from "framer-motion";
 
-import Resume from "../../assets/Pooja-Singh.pdf";
+import Resume from "../../assets/Pooja-Singh-Frontend-Developer.pdf.pdf";
 import { useTheme } from "../../Context/AppContext";
 import { useNavigate } from "react-router-dom";
 
@@ -24,7 +24,7 @@ function Navbar({ ProfileRef, AboutRef, SkillsRef, ProjectsRef, ContactRef }) {
 
   const handleDownload = () => {
     return window.open(
-      "https://drive.google.com/file/d/1WO6A0tv2RH_yrlWuy_V8iyD5K7h-31TY/view?usp=sharing"
+      "https://drive.google.com/file/d/1IjEl_RuornLpiBfltrpWG5QWsnUrD4WC/view"
     );
   };
 
